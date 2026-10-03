@@ -1,9 +1,6 @@
-فایل راه اندازی پاسارگارد
 SQLALCHEMY_DATABASE_URL
 
-postgresql+asyncpg://${{Postgres.PGUSER}}:${{Postgres.PGPASSWORD}}@${{Postgres.PGHOST}}:${{Postgres.PGPORT}}/${{Postgres.PGDATABASE}}
-
-
+postgresql+asyncpg://${{Postgres.PGUSER}}:${{Postgres.PGPASSWORD}}@${{Postgres.PGHOST}}:${{Postgres.PGPORT}}/${{Postgres.PGDATABASE}} 
 /var/lib/pg-node   <= volume node
 
 caddy:2-alpine <= add proxy
