@@ -1,4 +1,4 @@
-فایل راه اندازی پاسارگارد                                                                                                                              SQLALCHEMY_DATABASE_URL
+فایل راه اندازی پاسارگارد                                                                                                                                                                                                                                                                                                   SQLALCHEMY_DATABASE_URL
 
 postgresql+asyncpg://${{Postgres.PGUSER}}:${{Postgres.PGPASSWORD}}@${{Postgres.PGHOST}}:${{Postgres.PGPORT}}/${{Postgres.PGDATABASE}}
 
