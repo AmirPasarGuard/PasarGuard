@@ -10,3 +10,4 @@ sh -c "{ echo ':8080 {'; echo \"  reverse_proxy https://$PANEL_UPSTREAM {\"; ech
 PANEL_UPSTREAM <= varible panel
 
 ${{panel.RAILWAY_PRIVATE_DOMAIN}}:8000 <= varible panel
+فایل راه اندازی پاسارگارد
